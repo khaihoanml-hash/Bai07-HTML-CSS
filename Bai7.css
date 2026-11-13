@@ -1,0 +1,174 @@
+/* =========================
+   CSS RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: linear-gradient(135deg, #83a4d4, #b6fbff);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    color: #1e3a8a;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+section {
+    width: 80%;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 5px;
+}
+
+
+/* =========================
+   ẢNH ĐẠI DIỆN
+========================= */
+
+section img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px auto;
+    border: 4px solid #2563eb;
+}
+
+
+/* =========================
+   DANH SÁCH
+========================= */
+
+ul,
+ol {
+    margin-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* =========================
+   LINK
+========================= */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    section {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
